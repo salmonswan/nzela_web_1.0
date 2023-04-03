@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nzela.AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Nzela.AI</h1>
+      <p>Welcome to our website!</p>
+    </header>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We aim to make the world a better place, empowering everyone to ␃have access to cutting edge technologies,  leaving no one behind.</p>
+    </section>
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Service 1</li>
+        <li>Service 2</li>
+        <li>Service 3</li>
+      </ul>
+    </section>
+    <section id="team">
+      <h2>Our Team</h2>
+      <ul>
+        <li>Bosco Franco - [Position]</li>
+        <li>Samuel Lee Cong - [Position]</li>
+        <li>Toliva Solomon Iwutung - [Position]</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2023 Nzela.AI. All rights reserved.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
+

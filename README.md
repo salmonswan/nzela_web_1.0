@@ -1,4 +1,4 @@
-# nzel_web_1.0
+# nzela_web_1.0
 
 This is the starter code for the development of the portfolio website of Nzela.AI. A startup born from participating in the ever thrilling lablab.ai hackathons.
 

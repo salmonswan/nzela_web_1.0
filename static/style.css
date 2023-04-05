@@ -33,7 +33,7 @@ nav ul li a:hover {
 }
 
 header {
-  background-image: url('https://github.com/salmonswan/nzela_web_1.0/blob/master/static/images/23965.jpg?raw=true');
+  background-image: url('./images/23965.jpg');
   background-size: cover;
   height: 500px;
   text-align: center;

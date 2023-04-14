@@ -151,6 +151,7 @@ fieldset {
 legend {
   color: inherit;
   display: table;
+  appearance: inherit;
   max-width: 100%;
   padding: 0;
   white-space: normal;
